@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ /* Styling Logo */ 
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 25%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/*  Styling Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+    
+}
+
+.nav-list{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    
+
+} 
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(248, 248, 248);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.nav-list li a:hover{
+    color: black;
+}
+
+ul li a.active{
+    color: black;
+}
+
+.right-nav {
+    width: 40%;
+    text-align: end;
+    padding: 0px 34px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid white;
+    border-radius: 10px; 
+    background: none;
+    outline: none;
+    color: white;
+}
+
+.search-color::-webkit-input-placeholder {
+    color: white
+  }
+
+/* .background class is for both body and navbar  */
+
+.background{
+    background:hsl(0deg 39% 57% / 70%) url("/Images/Building.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+/* Styling Home Section */ 
+
+.box-main{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   max-width: 50%;
+   margin: auto;
+   height: 80%;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    border: 3px solid grey;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 96%;
+    height: 236px;
+}
+
+.text-big{
+    font-size: 37px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-small{
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn{
+    padding: 5px 20px;
+    margin: 7px;
+    border: 2px solid white;
+    border-radius: 14px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.btn-small{
+    font-size: 16px;
+}
+
+/* Styling About Section */
+
+.about-color{
+    background-color: #ecd8d861 ;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-Left{
+    flex-direction: row-reverse;
+}
+
+.imgFluid{
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 15px;
+
+}
+
+.paras{
+    padding: 0px 65px;
+}
+
+/* Styling Contact Section  */
+
+.contact{
+    background-color: #00808012;
+    height: 685px;
+
+}
+
+.text-advance{
+    text-align: center;
+    padding: 14px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+}
+
+.form{
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.form input{
+    margin: 18px 0px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    background: none;
+    padding: 8px 4px;
+}
+
+.btn-dark{
+    border: 2px solid black;
+    color: black;
+}
+
+.contact-submit{
+    display: block;
+    margin: 12px auto;
+
+}
+
+.form-placeholder::-webkit-input-placeholder {
+    color: rgb(73, 62, 62);
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  textarea{
+    display: block;
+    margin: auto;
+    width: 100%;
+    font-size: 17px;
+    height: 184px;
+    background: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 6px;
+  }
+
+  footer{
+    text-align: center;
+    padding: 11px 0px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    color: white;
+  }
+
+  .burger{
+     display: none;
+     cursor: pointer;
+     position: absolute;
+     right: 5%;
+     top: 15px;   
+  }
+
+  .line{
+      width: 33px;
+      height: 4px;
+      background-color: white;
+      margin: 5px 3px;
+  }
