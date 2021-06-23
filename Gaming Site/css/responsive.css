@@ -1,0 +1,70 @@
+
+
+@media only screen and (max-width: 1085px){
+
+    .navItems{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 280px;
+        transition: all 1s ease-out !important;
+    }
+    .logo{
+        text-align: center;
+    }
+
+    .navItems li a{
+        font-size: 32px;
+    }
+
+    .second{
+        flex-direction: column;
+        height: 1000px;
+        width: 100%;
+    }
+    #myVideo {
+        width: 123%;
+    }
+    .videoContent{
+        width: 100%;
+    }
+    .f-flex{
+        flex-direction: column;
+        height: 517px;
+    }
+    .powerdBy{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footerContent{
+        width: 100%;
+        margin: 70px;
+    }
+    .footerContent p {
+        position: relative;
+        top: 34px;
+    }
+
+    #burger{
+        display: block;
+    }
+    .v-resp{
+        visibility: hidden;
+    }
+    
+    .h-nav-resp{
+        height: 100px;
+    }
+}
+
+
+
+
+
+
+
+

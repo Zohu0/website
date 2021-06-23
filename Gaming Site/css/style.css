@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500&family=Lobster&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Lobster', cursive;
+}
+
+.background{
+    background: url(/images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background-color: black;
+    opacity: 0.7;
+    position: sticky;
+    top: 0px;
+}
+
+.logo{
+    width: 50%;
+    border-radius: 40%;
+}
+
+
+.navItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+}
+
+.navItems li a{
+    padding: 26px;
+    color: red;
+    text-decoration: none;
+}
+
+.navItems li a:hover{
+    color: white;;
+}
+
+.home{
+    width: 100%;
+    height: 680px;
+}
+
+.homeContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    height: 500px;
+    float: right;
+    margin: 50px 20px 0px 0px;
+}
+
+.btn {
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background: none;
+    width: 70%;
+    letter-spacing: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.btnEffect {
+    border-color: black;
+    color: black;
+    background-image: linear-gradient(45deg, black 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 200ms ease-in-out;
+}
+  .btnEffect:hover {
+      color: white;
+      background-position: 0;
+  }
+
+  .btnEffect2 {
+    border-color: black;
+    color: black;
+    background-image: linear-gradient(135deg, black 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 200ms ease-in-out;
+}
+  .btnEffect2:hover {
+    color: white;
+    background-position: 0;
+  }
+
+.second{
+    border: 2px solid black;
+    width: 100%;
+    height: 504px;
+    background-color: black;
+    color: #311b92;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    border: 2px solid red; */
+}
+
+.video {
+    width: 80%;
+    margin: 4px;
+    display: flex;
+}
+
+.videoContent {
+    width: 20%;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#myVideo{
+    width: 100%;
+    height: 100%;
+    border: 2 px solid white;
+}
+
+.videoButtons {
+    width: 80%;
+    height: 70px;
+    margin: 43px 0px;
+    font-size: 40px;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+
+.firstButton {
+    border-color: #aaeaf2;
+    color: #e64a19;
+    background-image: linear-gradient(170deg, #aaeaf2 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+}
+  .firstButton:hover {
+    background-position: 0;
+  }
+
+
+.secondButton {
+    border-color: red;
+    color: red;
+    background-image: linear-gradient(8deg, red 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 700%;
+    transition: background 300ms ease-in-out;
+}
+  .secondButton:hover {
+      color: black;
+    background-position: 0;
+  }
+
+  .thirdButton {
+    border-color: green;
+    color: green;
+    background-image: linear-gradient(90deg, white 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+}
+  .thirdButton:hover {
+    background-position: 0;
+  }
+
+.f-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    background-color: black;
+}
+
+.powerdBy{
+    width: 50%;
+    margin: 2px;
+    text-align: center;
+}
+
+.poweredByLogo{
+    width: 100px;
+    height: 120px;
+    display: inline-block;
+    margin-top: 14px;
+}
+
+.footerContent{
+    width: 50%;
+    margin: 2px;
+    height: 172px;
+    text-align: center;
+}
+.footerContent p{
+    color: #ff1313;
+    position: relative;
+    top: 40px;
+    letter-spacing: 3px;
+}
+
+h3{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #ff1313;
+}
+
+.nike{
+    width: 200px;
+}
+
+#burger{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    top: 15px;   
+ }
+
+.line{
+    width: 40px;
+    height: 8px;
+    background-color: red;
+    margin: 10px 17px;
+}
+
+
